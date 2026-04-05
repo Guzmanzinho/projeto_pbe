@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node server.js)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(curl -s -X POST http://localhost:3000/books/word -H 'Content-Type: application/json' -d '{\"word\":\"hobbit\"}')",
+      "Bash(curl -s -X POST http://localhost:3000/books/word -H 'Content-Type: application/json' -d '{\"word\":\"xyzabc\"}')"
+    ]
+  }
+}
